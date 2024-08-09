@@ -1,0 +1,165 @@
+.background{
+    background-image: url(backgr.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+}
+.background2{  
+     background-image: url(nightbackground.jpg);
+
+}
+
+h1{ margin-top: 40px;
+    margin-left: 590px;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    text-decoration-line: underline;
+}
+.mode{
+    width: 160px;
+    height: 30px;
+    background: none;
+    font-size: 20px;
+    border-radius: 10px;
+    position: absolute;
+    margin-left: 1200px;
+    margin-top: 20px;
+
+}
+.btncolor{
+      border :2px solid lightgoldenrodyellow;
+}
+.box{
+    width: 480px;
+    height: 450px;
+    border: 2px solid rgb(194, 235, 157);
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 850px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 10px;
+    background-color: #000;
+    color: #fff;
+    opacity: .6;
+     box-shadow: 10px 10px 10px whitesmoke;
+   
+}
+.tempdata{  display: flex;
+     margin-top: 20px;
+
+}
+.value{  width: 230px;
+    height: 150px;
+    padding: 5px;
+    
+  
+  
+     
+}
+.value h2{
+    margin-top: 15px;
+    margin-left: 32px;
+    font-size: 38px;
+}
+.value p{
+         font-size: 20px;
+         font-weight: bolder;
+         color: rgb(157, 104, 76);
+         padding: 5px;
+}
+.value p span{
+    color: rgb(65, 165, 102);
+}
+.image{  width: 230px;
+    height: 150px;
+    padding: 5px;
+   padding-top: 20px;
+
+}
+
+.image span{  font-size: 30px;
+    color: rgb(252, 5, 5);
+    margin-left: 48px;
+    margin-top: -10px;
+    font-size: 85px;
+  
+
+}
+
+.box input{
+    width: 400px;
+    height:30px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 33px;
+    border: 3px solid  rgb(125, 167, 114);;
+    background-color: rgb(247, 248, 247);
+  
+
+}
+input::placeholder{
+    text-align: center;
+    font-size: 16px;
+    color: black;
+}
+
+.btn{
+    width: 30px;
+    height: 30px;
+    background-image: url(th.jpeg);
+    background-size: contain;
+    border: none;
+    margin-top: 22px;
+    margin-left: -36px;
+    position: absolute;
+}
+.clear{
+    position: absolute;
+    margin-left: -56px;
+    margin-top: 29px;
+    background: none;
+    border: none;
+}
+
+.other{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.wind{
+    width: 250px;
+    height: 90px;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 10px;
+    margin-top: 100px;
+}
+.wind p{
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: -1px;
+}
+.wind i{
+    color: antiquewhite;
+}
+.humidity{
+    width: 250px;
+    height: 90px;
+
+
+    text-align: center;
+    padding-top: 10px;
+    font-size: 25px;
+    margin-top: 100px;
+}
+.humidity p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: -1px;
+
+}
+.humidity i{
+    color: rgb(54, 174, 222);
+}
